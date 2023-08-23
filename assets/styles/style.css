@@ -6,3 +6,8 @@
 body {
     font-family: Vazirmatn, sans-serif;
 }
+
+.container{
+    display: flex;
+    
+}
