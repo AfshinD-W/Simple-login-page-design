@@ -7,7 +7,74 @@ body {
     font-family: Vazirmatn, sans-serif;
 }
 
-.container{
+.container {
+    position: absolute;
     display: flex;
-    
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 60%;
+    width: 90%;
+}
+
+.pic {
+    display: none;
+
+}
+
+.form {
+    display: flex;
+    width: 100%;
+    color: white;
+    background-color: #2563eb;
+}
+
+.formTag {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.fileds {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 40%;
+}
+
+.fileds>input {
+    border: none;
+    outline: none;
+    padding: 0.7rem 1rem 0.7rem 1rem;
+    border-radius: 1rem;
+}
+
+.buttons{
+    display: flex;
+    gap: 1rem;
+}
+
+.singIn{
+    background-color: unset;
+    border: 1px solid white;
+    color: white;
+    border-radius: 1rem;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+}
+
+.create{
+    background-color: gold;
+    border: none;
+    color: #2563eb;
+    border-radius: 1rem;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+
+}
+@media (min-width:768px) {
+    .pic {
+        display: block;
+    }
 }
